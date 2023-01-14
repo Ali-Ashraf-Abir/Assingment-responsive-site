@@ -1,0 +1,426 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
+
+:root{
+    --primary-font:#131313;
+    --button-color:#FF900E;
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* css for the navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navheader h3{
+    font-size: 45px;
+    color: var(--primary-font);
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#424242;
+
+}
+
+/* css for the main header */
+main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-header-title h3{
+    font-weight: 700;
+    font-size: 64px;
+    color:var(--primary-font)
+}
+.header-title-description{
+    font-size: 20px;
+    color: #727272;
+    width: 70%;
+    margin-top: -50px;
+}
+
+.headerbutton{
+    padding: 15px 30px 15px 30px;
+    background: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-header-image{
+    margin-top: 60px;
+}
+.bannerimage{
+    width: 85%;
+}
+
+/* css for our features */
+.our-features{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    align-items: center;
+
+}
+
+.our-features-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.our-features-image{
+    height: 340px;
+    width: 340px;
+    padding: 10px;
+}
+
+.our-features-descriptions{
+    font-size: 20px;
+    color: #727272;
+    margin-left: 30px;
+
+
+}
+.our-features-descriptions h3{
+    font-weight: 500;
+    font-size: 45px;
+    color: #424242;
+
+}
+.dark{
+    color: var(--primary-font);
+    font-weight: 700;
+}
+.yellow{
+    color:var(--button-color);
+}
+
+/* css for features you love */
+
+.features-you-love{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.features-you-love-header h1{
+    font-weight: 700;
+    font-size: 45px;
+    color:var(--primary-font);
+    border-left: 6px solid var(--button-color);
+}
+
+
+.our-features-description{
+    font-size: 18px;
+    color: #727272;
+}
+
+.features{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.loved-features{
+    margin-left: 20px;
+}
+
+.tenyears{
+    padding: 20px 40px 20px 40px;
+    background: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: -100px;
+
+}
+
+
+/* css for our facts */
+
+.some-facts{
+    margin-left: 100px;
+    
+}
+.some-facts-header{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-font);
+}
+
+.facts{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.fact-divs{
+    height: auto;
+    width: 400px;
+    text-align: center;
+    border: 1px solid var(--button-color);
+    margin: 20px;
+    padding-top: 50px;
+    
+}
+.fact-divs h5{
+    color:#424242;
+    font-weight:700;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.fact-divs p{
+    color:#424242;
+    font-weight:700;
+    margin-top: 20x;
+}
+/* css for fact divs hover */
+
+.fact-divs:hover {
+    border: 1px solid rgb(25, 25, 26);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.fact-divs:hover .fact-logos{
+
+    transform: scale(1.75);
+    transition: .5s;
+
+}
+.fact-divs:hover h5{
+    transform: scale(1.7) translateY(20px);
+    transition: .5s;
+  
+}
+.fact-divs:hover p{
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+
+/* css for our sponsor section */
+.our-sponsors-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.our-sponsor-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our-sponsor-header h3{
+    font-size: 45px;
+    font-weight: 700;
+    color:var(--primary-font)
+}
+.our-sponsor-header p{
+    color:#424242;
+    font-weight:700;
+    margin-top: 20x;
+    margin-top: -20px;
+}
+
+.our-sponsors{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+/* css for contact us section */
+
+.contact-us-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.contact-us-header h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--primary-font);
+}
+.contact-us-header p{
+    color:#424242;
+    font-weight:700;
+    margin-top: 20x;
+    margin-top: -20px;
+}
+.form input{
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#email-box, #address-box ,#number-box{
+    padding:20px 20px;
+}
+
+#submit-button{
+    padding: 15px 30px 15px 30px;
+    background: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+
+
+
+
+
+
+/* css for credits */
+
+.credits{
+    margin-top: 300px;
+    text-align: center;
+}
+.credits p{
+    color:#424242;
+    font-weight:700;
+    margin-top: 20x;
+    margin-top: -20px;
+
+}
+
+/* responsive codes for mobile */
+
+@media only screen and (max-width:576px ){
+    /* responsive css for navbar */
+    nav{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+    .navbar ul li{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        border: 1px solid #424242 ;
+        margin-right: 60px;
+    }
+    .navbar ul li a{
+        font-size: 25px;
+
+    }
+
+    /* responsive css for our features */
+    .our-features{
+        display: flex;
+        flex-direction: column;
+
+    
+    }
+    .our-features-images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .our-features-descriptions{
+        text-align: center;
+    }
+    /* css for loved features */
+    .features-you-love{
+        flex-direction: column;
+    }
+    .features-love-image{
+        width: 90%;
+
+    }
+    .tenyears{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /*css for facts */
+
+    .facts{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* css for our sponsors */
+
+
+
+    .our-sponsors{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .our-sponsor{
+        margin-top: 20px;
+        
+    }
+    .our-sponsor-logo{
+        margin-top: 30px;
+    }
+
+    /* css for contact us section */
+    .contact-us-section{
+        flex-direction: column;
+    }
+    .contact-us-header{
+        text-align: center;
+    }
+    #submit-button{
+        margin-top: 20px;
+    }
+    
+}
